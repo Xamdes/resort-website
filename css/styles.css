@@ -13,8 +13,18 @@ h2 {
   text-align: center;
 }
 
-ul {
+.menu ul, li {
   list-style-type: none;
+  display: inline;
+  margin-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -25,5 +35,16 @@ img {
 
 div {
   margin-left: 100px;
-  width: 300px;
+  width: 1000px;
+}
+
+.accommodations {
+  width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.activities ul, li {
+  display: block;
+  text-align: center;
 }
